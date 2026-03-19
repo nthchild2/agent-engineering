@@ -1,15 +1,41 @@
-# Copilot Instructions for Context Engineering Framework
+# Copilot Instructions
 
-This document provides custom instructions for utilizing the Context Engineering Framework effectively.
+These instructions align AI-assisted development with the purpose of this repository.
 
-## Overview
-The Context Engineering Framework is designed to optimize the interaction between Copilot and your codebase by enabling tailored responses based on the context provided.
+## Repository Intent
 
-## Custom Instructions
-1. **Define Your Context**: Start by outlining the specific context of your project. Include details such as the project type, primary language, and any frameworks or libraries in use.
-2. **Focus on Key Concepts**: Identify and document key concepts and terminologies relevant to your project. This can help Copilot generate more relevant suggestions.
-3. **Utilize Examples**: Provide example code snippets that illustrate typical use cases in your project. This helps Copilot understand how to better assist with similar scenarios.
-4. **Iterate and Improve**: Regularly update this file with new findings, examples, and context as your project evolves. This will keep Copilot's suggestions aligned with your project needs.
+This repository is building a formal methodology for agentic software development.
 
-## Conclusion
-Following these instructions will help enhance the quality of suggestions provided by Copilot, making it a more powerful tool in your development workflow.
+Do not treat it like a generic starter repository. Favor work that clarifies principles, improves orchestration design, or turns those principles into usable tools and evaluation methods.
+
+## Operating Expectations
+
+- Keep the repository purpose visible in the work.
+- Prefer precise, source-backed, and testable claims.
+- Separate observations from recommendations.
+- Avoid generic AI guidance that could apply to any project.
+- Keep outputs concrete, structured, and easy to audit.
+
+## Documentation Expectations
+
+- Update documentation when the intended workflow, purpose, or methodology changes.
+- Keep `README.md`, `AGENTS.md`, and this file aligned.
+- Mark provisional ideas clearly instead of presenting them as settled doctrine.
+
+## Engineering Expectations
+
+- Build from explicit problems and principles.
+- Prefer simple, inspectable implementations.
+- Design around artifacts, verification, and handoffs.
+- Avoid unnecessary abstractions until the repository has earned them.
+- Keep changes tightly scoped to the task.
+
+## Research Expectations
+
+- When exploring a new topic, capture the question before proposing the tool.
+- Prefer primary sources, benchmark writeups, vendor docs, and direct experiments over secondary summaries.
+- Distinguish between model limitations, orchestration limitations, and specification limitations.
+
+## Practical Bias
+
+The goal is not to sound sophisticated about AI. The goal is to produce a methodology and toolset that improve real software development work under real constraints.

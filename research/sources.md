@@ -1,0 +1,51 @@
+- OpenAI GPT-5.1 model page
+  - URL: https://platform.openai.com/docs/models/gpt-5.1
+  - Why it matters: gives an official snapshot of coding/agentic positioning, context window, output limits, reasoning-effort control, and knowledge cutoff.
+- OpenAI GPT-4.1 model page
+  - URL: https://platform.openai.com/docs/models/gpt-4.1
+  - Why it matters: useful contrast case for large context without an explicit reasoning step.
+- OpenAI prompting guide: strategies to improve reliability
+  - URL: https://platform.openai.com/docs/guides/prompt-engineering/strategies-to-improve-reliability
+  - Why it matters: explicitly frames outputs as non-deterministic and recommends snapshot pinning and evals.
+- Anthropic context windows
+  - URL: https://docs.anthropic.com/en/docs/build-with-claude/context-windows
+  - Why it matters: strong explanation of context as working memory, token accounting, tool-use interaction, and context overflow behavior.
+- Anthropic tool use overview
+  - URL: https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/overview
+  - Why it matters: shows the actual control loop for tool-mediated work and clarifies the boundary between model intent and external execution.
+- Anthropic reduce hallucinations
+  - URL: https://docs.anthropic.com/en/docs/test-and-evaluate/strengthen-guardrails/reduce-hallucinations
+  - Why it matters: official guidance on uncertainty, grounding, verification, and iterative checking.
+- AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation
+  - URL: https://www.microsoft.com/en-us/research/publication/autogen-enabling-next-gen-llm-applications-via-multi-agent-conversation-framework/
+  - Why it matters: foundational paper for composing multiple conversable agents with tools and optional human input.
+- AutoGen v0.4: actor-model redesign
+  - URL: https://www.microsoft.com/en-us/research/articles/autogen-v0-4-reimagining-the-foundation-of-agentic-ai-for-scale-extensibility-and-robustness/
+  - Why it matters: suggests that robustness and scale require stronger execution models than informal chat loops.
+- AutoGen Studio: A No-Code Developer Tool for Building and Debugging Multi-Agent Systems
+  - URL: https://www.microsoft.com/en-us/research/publication/autogen-studio-a-no-code-developer-tool-for-building-and-debugging-multi-agent-systems/
+  - Why it matters: highlights workflow specification, debugging, and evaluation as first-class needs, not afterthoughts.
+- Challenges in Human-Agent Communication
+  - URL: https://doi.org/10.48550/arXiv.2412.10380
+  - Why it matters: points toward a core manifesto issue: human-agent coordination is itself a design problem.
+- SWE-bench Verified
+  - URL: https://openai.com/index/introducing-swe-bench-verified/
+  - Why it matters: explains why benchmark quality matters and why naive measurements can misstate software-engineering capability.
+- SWE-Lancer benchmark
+  - URL: https://openai.com/index/swe-lancer/
+  - Why it matters: grounds the discussion in real freelance software tasks and shows frontier models still miss most tasks.
+- MLE-bench
+  - URL: https://openai.com/index/mle-bench/
+  - Why it matters: useful adjacent evidence that agent performance depends heavily on scaffolding, evaluation setup, and available tools.
+- GPT-5.1 for developers
+  - URL: https://openai.com/index/gpt-5-1-for-developers/
+  - Why it matters: provides recent coding and agentic benchmark results and reinforces the importance of tool-enabled evaluation.
+Use four buckets when extracting notes from sources:
+1. Descriptive truths
+   - Claims about how models and agents behave.
+2. Operational constraints
+   - Context, cost, latency, tool interfaces, memory, determinism, and evaluation limits.
+3. Orchestration design patterns
+   - Delegation, review, verification, memory, role separation, and human override.
+4. Manifesto implications
+   - Normative statements that should become postulates.
